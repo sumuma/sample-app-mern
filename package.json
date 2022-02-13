@@ -1,0 +1,27 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "sample",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumuma/sample-app-mern.git"
+  },
+  "author": "Sumit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumuma/sample-app-mern/issues"
+  },
+  "homepage": "https://github.com/sumuma/sample-app-mern#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1",
+    "nodemon": "^2.0.15"
+  }
+}
